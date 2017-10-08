@@ -1,0 +1,889 @@
+[INFO] logger started at Sun Oct 08 14:40:27 IST 2017
+[INFO] executable name: D:\Mirth\mirthconnect-3.5.0.8232.b2153-windows-x64.exe
+[INFO] install4j version: 6.1.4 (build 6320)
+[INFO] Properties: 
+-- listing properties --
+java.runtime.name=Java(TM) SE Runtime Environment
+exe4j.moduleName=D:\Mirth\mirthconnect-3.5.0.8232.b215...
+sun.boot.library.path=c:\program files\java\jre1.8.0_131\bin
+exe4j.semaphoreName=Local\d:_mirth_mirthconnect-3.5.0.823...
+java.vm.version=25.131-b11
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+path.separator=;
+exe4j.consoleCodepage=cp0
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+user.script=
+user.country=US
+sun.os.patch.level=
+install4j.exeDir=D:\Mirth\
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=C:\Users\ADMINI~1\AppData\Local\Temp\...
+java.runtime.version=1.8.0_131-b11
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+java.endorsed.dirs=c:\program files\java\jre1.8.0_131\li...
+os.arch=amd64
+java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+user.variant=
+exe4j.tempDir=C:\Users\ADMINI~1\AppData\Local\Temp\...
+os.name=Windows 10
+sun.java2d.noddraw=true
+sun.jnu.encoding=Cp1252
+java.library.path=C:\Users\ADMINI~1\AppData\Local\Temp\...
+sun.awt.enableExtraMouseButtons=true
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+exe4j.isInstall4j=true
+os.version=10.0
+user.home=C:\Users\Administrator
+user.timezone=Asia/Calcutta
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+java.specification.version=1.8
+file.encoding=Cp1252
+user.name=Administrator
+java.class.path=C:\Users\ADMINI~1\AppData\Local\Temp\...
+java.vm.specification.version=1.8
+sun.arch.data.model=64
+java.home=c:\program files\java\jre1.8.0_131
+sun.java.command=D:\Mirth\mirthconnect-3.5.0.8232.b215...
+exe4j.launchName=D:\Mirth\mirthconnect-3.5.0.8232.b215...
+java.specification.vendor=Oracle Corporation
+user.language=en
+awt.toolkit=sun.awt.windows.WToolkit
+java.vm.info=mixed mode
+exe4j.unextractedPosition=4018782
+java.version=1.8.0_131
+java.ext.dirs=c:\program files\java\jre1.8.0_131\li...
+sun.boot.class.path=c:\program files\java\jre1.8.0_131\li...
+java.vendor=Oracle Corporation
+install4j.appDir=C:\Users\Administrator\AppData\Local\...
+file.separator=\
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+sun.cpu.endian=little
+sun.io.unicode.encoding=UnicodeLittle
+sun.desktop=windows
+sun.cpu.isalist=amd64
+[INFO] com.install4j.runtime.beans.actions.misc.RequestPrivilegesAction [ID 995]: Execute action
+       Property allRequested: true
+       Property failIfNotRootUnix: true
+       Property failIfNotObtainedMac: true
+       Property obtainIfAdminMac: true
+       Property obtainIfNormalMac: true
+       Property obtainIfNormalWin: true
+       Property failIfNotObtainedWin: true
+       Property obtainIfAdminWin: true
+       Property rollbackSupported: false
+       Execute action successful after 2 ms
+[INFO] com.install4j.runtime.beans.actions.misc.LoadResponseFileAction [ID 316]: Execute action
+       Property file: preferences
+       Property registerForResponseFile: true
+       Property excludedVariables: null
+       Property overwriteStrategy: Do not overwrite command line
+       Property rollbackSupported: true
+[ERROR] com.install4j.runtime.beans.actions.misc.LoadResponseFileAction [ID 316]: Response file C:\Program Files\Mirth Connect\preferences does not exist
+        Execute action not successful after 1 ms
+[INFO] com.install4j.runtime.beans.screens.StartupScreen [ID 1]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: Show screen
+       thread name AWT-EventQueue-0
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.LicenseScreen [ID 161]: Show screen
+[INFO] com.install4j.runtime.beans.screens.LicenseScreen [ID 161]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 3]: Show screen
+       Variable changed: sys.installationDir=D:\RP\Mirth Connect[class java.lang.String]
+       checking writable with maximum
+[INFO] com.install4j.runtime.beans.actions.misc.LoadResponseFileAction [ID 4]: Execute action
+       Property file: null
+       Property registerForResponseFile: true
+       Property excludedVariables: [sys.installationDir]
+       Property overwriteStrategy: Do not overwrite command line
+       Property rollbackSupported: true
+       Response file D:\RP\Mirth Connect\.install4j\response.varfile does not exist
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 3]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.ComponentsScreen [ID 5]: Show screen
+[INFO] com.install4j.runtime.beans.actions.services.StopServiceAction [ID 1575]: Execute action
+       Property serviceName: null
+       Property launcherId: 144
+       Property executable: null
+       Property rollbackSupported: true
+       usedExecutable: D:\RP\Mirth Connect\mcservice.exe
+       Service 'Mirth Connect Service' is not running.
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.screens.ComponentsScreen [ID 5]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 6]: Show screen
+       Variable changed: sys.programGroupName=Mirth Connect[class java.lang.String]
+       Variable changed: sys.programGroupDisabled=false[class java.lang.Boolean]
+       Variable changed: sys.programGroupAllUsers=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 6]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 36]: Show screen
+       Variable changed: http.port=8080[class java.lang.Long]
+       Variable changed: https.port=8443[class java.lang.Long]
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 36]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 308]: Show screen
+       Variable changed: password.minlength=0[class java.lang.Long]
+       Variable changed: password.minupper=0[class java.lang.Long]
+       Variable changed: password.minlower=0[class java.lang.Long]
+       Variable changed: password.minnumeric=0[class java.lang.Long]
+       Variable changed: password.minspecial=0[class java.lang.Long]
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 308]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 605]: Show screen
+       Variable changed: dir.appdata=D:\RP\Mirth Connect\appdata[class java.lang.String]
+       Variable changed: dir.logs=D:\RP\Mirth Connect\logs[class java.lang.String]
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 605]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 1196]: Show screen
+       Variable changed: installServiceAction=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 1196]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 7]: Show screen
+[INFO] com.install4j.runtime.beans.actions.UninstallPreviousAction [ID 1457]: Execute action
+       Property installationDirectory: D:\RP\Mirth Connect
+       Property installerVariables: {}
+       Property logFiles: []
+       Property uninstallServices: true
+       Property onlyIfSameApplicationId: true
+       Property rollbackSupported: true
+       checking running processes
+       checking running processes ok
+       getting previous installation id
+       no previous installation detected, uninstaller was not started
+       finished
+       Execute action successful after 27 ms
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction [ID 8]: Execute action
+       Property checkFreeSpace: true
+       Property installRuntime: true
+       Property validateApplicationId: false
+       Property updateBundledJre: true
+       Property sizeCalculatorScript: null
+       Property saveDownloadedFiles: false
+       Property delay: false
+       Property triggerReboot: true
+       Property showFileNames: true
+       Property directoryResolverScript: null
+       Property fileFilterScript: null
+       Property rollbackSupported: true
+       Component Mirth Connect Server[31]; Selected: true
+       Component Mirth Connect Server Manager[33]; Selected: true
+       Component Mirth Connect CLI[1357]; Selected: true
+       Install file: D:\RP\Mirth Connect\.install4j\i4jdel.exe; size: 79904 bytes; exists: false
+       File options set to: [fileTime: Tue Apr 18 09:45:42 IST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\RP\Mirth Connect\.install4j\i4jinst.dll; size: 156160 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\uninstall.exe; size: 370872 bytes; exists: false
+       File options set to: [fileTime: Tue Apr 18 09:45:42 IST 2017, mode: 700, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\RP\Mirth Connect\manager-lib\commons-codec-1.6.jar; size: 232771 bytes; exists: false
+       File options set to: [fileTime: Tue Apr 18 09:45:42 IST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\RP\Mirth Connect\manager-lib\commons-collections-3.2.1.jar; size: 575389 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\commons-configuration-1.7.jar; size: 350332 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\commons-io-2.3.jar; size: 182650 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\commons-lang-2.6.jar; size: 284220 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\commons-lang3-3.4.jar; size: 434678 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\commons-logging-1.1.1.jar; size: 60841 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\donkey-model.jar; size: 99243 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\guava-18.0.jar; size: 2256213 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\hk2-api-2.4.0-b31.jar; size: 173037 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\hk2-locator-2.4.0-b31.jar; size: 179705 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\hk2-utils-2.4.0-b31.jar; size: 101088 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\httpclient-4.5.1.jar; size: 732765 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\httpcore-4.4.3.jar; size: 326594 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\httpmime-4.5.1.jar; size: 40698 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\javassist-3.19.0-GA.jar; size: 749498 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\javax.annotation-api-1.2.jar; size: 26366 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\javax.inject-2.4.0-b31.jar; size: 5951 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\javax.ws.rs-api-2.0.1.jar; size: 115534 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\jersey-client-2.22.1.jar; size: 163417 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\jersey-common-2.22.1.jar; size: 696004 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\jersey-guava-2.22.1.jar; size: 971278 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\jersey-media-multipart-2.22.1.jar; size: 68019 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\jersey-proxy-client-2.22.1.jar; size: 9603 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\log4j-1.2.16.jar; size: 481534 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\looks-2.3.1.jar; size: 408024 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\miglayout-core-4.2.jar; size: 66663 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\miglayout-swing-4.2.jar; size: 14580 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\mimepull-1.9.6.jar; size: 63977 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\mirth-client-core.jar; size: 586900 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\mirth-crypto.jar; size: 3025092 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\not-yet-commons-ssl-0.3.11.jar; size: 274044 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\reflections-0.9.10.jar; size: 129763 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\rhino-1.7.6.jar; size: 1188593 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\swagger-annotations-1.5.4.jar; size: 16045 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\swingx-core-1.6.2.jar; size: 1447793 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\xpp3-1.1.4c.jar; size: 120069 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\manager-lib\xstream-1.4.7.jar; size: 531571 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\mcmanager.exe; size: 359608 bytes; exists: false
+       File options set to: [fileTime: Tue Apr 18 09:45:42 IST 2017, mode: 755, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\RP\Mirth Connect\mirth-manager-launcher.jar; size: 78882 bytes; exists: false
+       File options set to: [fileTime: Tue Apr 18 09:45:42 IST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\RP\Mirth Connect\cli-lib\bcpkix-jdk15on-151.jar; size: 605519 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\bcprov-ext-jdk15on-151.jar; size: 2908223 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\bcprov-jdk15on-151.jar; size: 2842667 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\commons-cli-1.2.jar; size: 41123 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\commons-codec-1.6.jar; size: 232771 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\commons-collections-3.2.1.jar; size: 575389 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\commons-configuration-1.7.jar; size: 350332 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\commons-io-2.3.jar; size: 182650 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\commons-lang-2.6.jar; size: 284220 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\commons-lang3-3.4.jar; size: 434678 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\commons-logging-1.1.1.jar; size: 60841 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\commons-vfs2-2.0.jar; size: 415578 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\donkey-model.jar; size: 99243 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\guava-18.0.jar; size: 2256213 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\hk2-api-2.4.0-b31.jar; size: 173037 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\hk2-locator-2.4.0-b31.jar; size: 179705 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\hk2-utils-2.4.0-b31.jar; size: 101088 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\httpclient-4.5.1.jar; size: 732765 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\httpcore-4.4.3.jar; size: 326594 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\httpmime-4.5.1.jar; size: 40698 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\javassist-3.19.0-GA.jar; size: 749498 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\javax.annotation-api-1.2.jar; size: 26366 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\javax.inject-2.4.0-b31.jar; size: 5951 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\javax.ws.rs-api-2.0.1.jar; size: 115534 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\jersey-client-2.22.1.jar; size: 163417 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\jersey-common-2.22.1.jar; size: 696004 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\jersey-guava-2.22.1.jar; size: 971278 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\jersey-media-multipart-2.22.1.jar; size: 68019 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\jersey-proxy-client-2.22.1.jar; size: 9603 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\log4j-1.2.16.jar; size: 481534 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\mimepull-1.9.6.jar; size: 63977 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\mirth-cli.jar; size: 37109 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\mirth-client-core.jar; size: 586900 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\mirth-crypto.jar; size: 3025092 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\not-yet-commons-ssl-0.3.11.jar; size: 274044 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\reflections-0.9.10.jar; size: 129763 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\rhino-1.7.6.jar; size: 1188593 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\swagger-annotations-1.5.4.jar; size: 16045 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\velocity-1.7.jar; size: 449505 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\velocity-tools-2.0.jar; size: 346580 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\xpp3-1.1.4c.jar; size: 120069 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\cli-lib\xstream-1.4.7.jar; size: 531571 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\conf\log4j-cli.properties; size: 219 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\conf\mirth-cli-config.properties; size: 73 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\mccommand.exe; size: 359608 bytes; exists: false
+       File options set to: [fileTime: Tue Apr 18 09:45:42 IST 2017, mode: 755, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\RP\Mirth Connect\mirth-cli-launcher.jar; size: 5375 bytes; exists: false
+       File options set to: [fileTime: Tue Apr 18 09:45:42 IST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\RP\Mirth Connect\client-lib\autocomplete-2.5.4.jar; size: 163202 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\bcpkix-jdk15on-151.jar; size: 628884 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\bcprov-ext-jdk15on-151.jar; size: 2994937 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\bcprov-jdk15on-151.jar; size: 2927833 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\commons-beanutils-1.9.3.jar; size: 264299 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\commons-codec-1.6.jar; size: 257893 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\commons-collections-3.2.1.jar; size: 628917 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\commons-collections4-4.0.jar; size: 661985 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\commons-compress-1.4.1.jar; size: 261378 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\commons-configuration-1.7.jar; size: 377547 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\commons-io-2.3.jar; size: 200167 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\commons-lang-2.6.jar; size: 304355 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\commons-lang3-3.4.jar; size: 460918 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\commons-logging-1.1.1.jar; size: 69830 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\commons-vfs2-2.0.jar; size: 451409 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\donkey-model.jar; size: 113421 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\guava-18.0.jar; size: 2414670 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\hapi-1.1.jar; size: 14335200 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\hk2-api-2.4.0-b31.jar; size: 195729 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\hk2-locator-2.4.0-b31.jar; size: 195530 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\hk2-utils-2.4.0-b31.jar; size: 114401 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\httpclient-4.5.1.jar; size: 788021 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\httpcore-4.4.3.jar; size: 355117 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\httpmime-4.5.1.jar; size: 49470 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\jackson-annotations-2.5.3.jar; size: 50311 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\jackson-core-2.5.3.jar; size: 243873 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\jackson-databind-2.5.3.jar; size: 1201655 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\jai_imageio.jar; size: 977179 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\javaparser-1.0.8.jar; size: 273848 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\javassist-3.19.0-GA.jar; size: 790084 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\javax.annotation-api-1.2.jar; size: 34191 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\javax.inject-2.4.0-b31.jar; size: 12464 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\javax.mail-1.5.0.jar; size: 559089 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\javax.ws.rs-api-2.0.1.jar; size: 132261 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\jersey-client-2.22.1.jar; size: 179069 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\jersey-common-2.22.1.jar; size: 744787 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\jersey-guava-2.22.1.jar; size: 1045308 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\jersey-media-multipart-2.22.1.jar; size: 77875 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\jersey-proxy-client-2.22.1.jar; size: 15566 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\joda-time-2.2.jar; size: 649840 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\language_support.jar; size: 1149677 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\log4j-1.2.16.jar; size: 515315 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\looks-2.3.1.jar; size: 446305 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\miglayout-core-4.2.jar; size: 75267 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\miglayout-swing-4.2.jar; size: 21153 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\mimepull-1.9.6.jar; size: 74514 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\mirth-client-core.jar; size: 627171 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\mirth-client.jar; size: 2891970 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\mirth-crypto.jar; size: 3032299 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\mirth-vocab.jar; size: 1949208 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\not-yet-commons-ssl-0.3.11.jar; size: 293870 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\quartz-all-2.1.7.jar; size: 621368 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\reflections-0.9.10.jar; size: 145281 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\rhino-1.7.6.jar; size: 1243686 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\rsyntaxtextarea-2.5.6.jar; size: 1085517 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\swagger-annotations-1.5.4.jar; size: 23880 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\swingx-core-1.6.2.jar; size: 1562340 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\userutil-sources.jar; size: 66922 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\velocity-1.7.jar; size: 484300 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\velocity-tools-2.0.jar; size: 372634 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\wizard.jar; size: 233509 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\xercesImpl-2.9.1.jar; size: 1331860 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\xpp3-1.1.4c.jar; size: 131967 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\xstream-1.4.7.jar; size: 584189 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\client-lib\zip4j_1.3.2.jar; size: 141974 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\conf\dbdrivers.xml; size: 1248 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\conf\log4j.properties; size: 1270 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\conf\mirth.properties; size: 3956 bytes; exists: false
+       File options set to: [fileTime: Tue Apr 18 09:45:42 IST 2017, mode: 644, overwriteMode: Never, shared: false, uninstallMode: Always, but not for update, delayIfNecessary: false]
+       Install file: D:\RP\Mirth Connect\docs\LICENSE.txt; size: 22652 bytes; exists: false
+       File options set to: [fileTime: Tue Apr 18 09:45:42 IST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\RP\Mirth Connect\docs\README.txt; size: 4722 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\allclasses-frame.html; size: 7553 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\allclasses-noframe.html; size: 6653 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\plugins\httpauth\userutil\AuthStatus.html; size: 18236 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\plugins\httpauth\userutil\AuthenticationResult.html; size: 29086 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\plugins\httpauth\userutil\package-frame.html; size: 1130 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\plugins\httpauth\userutil\package-summary.html; size: 6603 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\plugins\httpauth\userutil\package-tree.html; size: 6027 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\server\userutil\ACKGenerator.html; size: 23649 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\server\userutil\AlertSender.html; size: 13624 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\server\userutil\Attachment.html; size: 18627 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\server\userutil\AttachmentUtil.html; size: 36759 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\server\userutil\ChannelMap.html; size: 59183 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\server\userutil\ChannelUtil.html; size: 74983 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\server\userutil\ContextFactory.html; size: 14761 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\server\userutil\DICOMUtil.html; size: 40952 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\server\userutil\DatabaseConnection.html; size: 38313 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\server\userutil\DatabaseConnectionFactory.html; size: 22429 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\server\userutil\DateUtil.html; size: 18510 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\server\userutil\DeployedState.html; size: 23744 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\server\userutil\DestinationSet.html; size: 18919 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\server\userutil\FileUtil.html; size: 24278 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\server\userutil\Future.html; size: 25598 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\server\userutil\HTTPUtil.html; size: 18432 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\server\userutil\ImmutableResponse.html; size: 15234 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\server\userutil\MirthCachedRowSet.html; size: 243970 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\server\userutil\NCPDPUtil.html; size: 11555 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\server\userutil\RawMessage.html; size: 35525 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\server\userutil\ResponseFactory.html; size: 15389 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\server\userutil\SMTPConnection.html; size: 41743 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\server\userutil\SMTPConnectionFactory.html; size: 11095 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\server\userutil\SerializerFactory.html; size: 42952 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\server\userutil\SourceMap.html; size: 58604 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\server\userutil\UUIDGenerator.html; size: 10560 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\server\userutil\VMRouter.html; size: 19541 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\server\userutil\package-frame.html; size: 4218 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\server\userutil\package-summary.html; size: 14848 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\server\userutil\package-tree.html; size: 13991 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\userutil\ContentType.html; size: 25131 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\userutil\ImmutableAttachment.html; size: 15422 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\userutil\ImmutableConnectorMessage.html; size: 59466 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\userutil\ImmutableMessage.html; size: 29535 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\userutil\ImmutableMessageContent.html; size: 15389 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\userutil\JsonUtil.html; size: 12211 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\userutil\ListBuilder.html; size: 76442 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\userutil\Lists.html; size: 15191 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\userutil\MapBuilder.html; size: 49472 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\userutil\Maps.html; size: 15603 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\userutil\MessageHeaders.html; size: 21537 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\userutil\MessageParameters.html; size: 21693 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\userutil\Response.html; size: 29704 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\userutil\ResponseMap.html; size: 58764 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\userutil\Status.html; size: 18877 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\userutil\XmlUtil.html; size: 16049 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\userutil\package-frame.html; size: 2672 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\userutil\package-summary.html; size: 10601 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\com\mirth\connect\userutil\package-tree.html; size: 9197 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\constant-values.html; size: 3545 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\deprecated-list.html; size: 14146 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\help-doc.html; size: 8213 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\index-all.html; size: 235174 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\index.html; size: 2923 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\overview-frame.html; size: 1085 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\overview-summary.html; size: 5154 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\overview-tree.html; size: 17309 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\package-list; size: 105 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\script.js; size: 827 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\serialized-form.html; size: 4415 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\javadocs\user-api\stylesheet.css; size: 12842 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\thirdparty\APACHE-LICENSE-2.0.txt; size: 11358 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\thirdparty\ARTISTIC-LICENSE.txt; size: 4978 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\thirdparty\CDDL-1.0.txt; size: 16906 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\thirdparty\CDDL-1.1.txt; size: 17209 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\thirdparty\CPL-1.0.txt; size: 11539 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\thirdparty\LGPL-2.1.txt; size: 26436 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\thirdparty\MPL-1.1.txt; size: 22446 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\thirdparty\MPL-2.0.txt; size: 16725 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\thirdparty\MYSQL-CONNECTOR-LICENSE.txt; size: 18723 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\thirdparty\OSGi-1.0.txt; size: 2923 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\docs\thirdparty\THIRD-PARTY-README.txt; size: 53436 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\dashboardstatus\dashboardstatus-client.jar; size: 29211 bytes; exists: false
+       File options set to: [fileTime: Tue Apr 18 09:45:42 IST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: D:\RP\Mirth Connect\extensions\dashboardstatus\dashboardstatus-server.jar; size: 16760 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\dashboardstatus\dashboardstatus-shared.jar; size: 8282 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\dashboardstatus\plugin.xml; size: 1120 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datapruner\datapruner-client.jar; size: 25728 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datapruner\datapruner-server.jar; size: 36690 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datapruner\datapruner-shared.jar; size: 7709 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datapruner\plugin.xml; size: 934 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-delimited\datatype-delimited-client.jar; size: 8647 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-delimited\datatype-delimited-server.jar; size: 13364 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-delimited\datatype-delimited-shared.jar; size: 36032 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-delimited\plugin.xml; size: 922 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-dicom\datatype-dicom-client.jar; size: 9273 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-dicom\datatype-dicom-server.jar; size: 7529 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-dicom\datatype-dicom-shared.jar; size: 15035 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-dicom\plugin.xml; size: 874 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-edi\datatype-edi-client.jar; size: 8646 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-edi\datatype-edi-server.jar; size: 7675 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-edi\datatype-edi-shared.jar; size: 628257 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-edi\edi-to-xml-mapping.xml; size: 595 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-edi\plugin.xml; size: 850 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-hl7v2\datatype-hl7v2-client.jar; size: 8666 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-hl7v2\datatype-hl7v2-server.jar; size: 8219 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-hl7v2\datatype-hl7v2-shared.jar; size: 69119 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-hl7v2\plugin.xml; size: 874 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-hl7v3\datatype-hl7v3-client.jar; size: 8677 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-hl7v3\datatype-hl7v3-server.jar; size: 7709 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-hl7v3\datatype-hl7v3-shared.jar; size: 22434 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-hl7v3\plugin.xml; size: 874 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-json\datatype-json-client.jar; size: 7888 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-json\datatype-json-server.jar; size: 7700 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-json\datatype-json-shared.jar; size: 19625 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-json\plugin.xml; size: 733 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-ncpdp\datatype-ncpdp-client.jar; size: 8676 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-ncpdp\datatype-ncpdp-server.jar; size: 7703 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-ncpdp\datatype-ncpdp-shared.jar; size: 47160 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-ncpdp\plugin.xml; size: 874 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-raw\datatype-raw-client.jar; size: 7822 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-raw\datatype-raw-server.jar; size: 7676 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-raw\datatype-raw-shared.jar; size: 19759 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-raw\plugin.xml; size: 739 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-xml\datatype-xml-client.jar; size: 7884 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-xml\datatype-xml-server.jar; size: 7679 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-xml\datatype-xml-shared.jar; size: 23945 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\datatype-xml\plugin.xml; size: 739 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\destinationsetfilter\destinationsetfilter-client.jar; size: 29639 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\destinationsetfilter\destinationsetfilter-shared.jar; size: 12108 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\destinationsetfilter\plugin.xml; size: 650 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\dicom\destination.xml; size: 1358 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\dicom\dicom-client.jar; size: 40153 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\dicom\dicom-server.jar; size: 67401 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\dicom\dicom-shared.jar; size: 14997 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\dicom\lib\dcm4che-core-2.0.28.jar; size: 411576 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\dicom\lib\dcm4che-filecache-2.0.28.jar; size: 12206 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\dicom\lib\dcm4che-net-2.0.28.jar; size: 132163 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\dicom\lib\dcm4che-tool-dcmrcv-2.0.28.jar; size: 29057 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\dicom\lib\dcm4che-tool-dcmsnd-2.0.28.jar; size: 30984 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\dicom\lib\jai_imageio.jar; size: 977172 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\dicom\lib\slf4j-api-1.6.1.jar; size: 33738 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\dicom\lib\slf4j-log4j12-1.6.1.jar; size: 16285 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\dicom\source.xml; size: 1378 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\dicomviewer\dicomviewer-client.jar; size: 8779 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\dicomviewer\lib\ij.jar; size: 1451209 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\dicomviewer\plugin.xml; size: 554 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\directoryresource\directoryresource-client.jar; size: 13112 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\directoryresource\directoryresource-server.jar; size: 11064 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\directoryresource\directoryresource-shared.jar; size: 8563 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\directoryresource\plugin.xml; size: 1061 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\doc\destination.xml; size: 1423 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\doc\doc-client.jar; size: 23221 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\doc\doc-server.jar; size: 15573 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\doc\doc-shared.jar; size: 14841 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\doc\lib\flying-saucer-core-9.0.1.jar; size: 1182050 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\doc\lib\flying-saucer-pdf-9.0.1.jar; size: 117169 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\doc\lib\itext-2.1.7.jar; size: 1187431 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\doc\lib\itext-rtf-2.1.7.jar; size: 172351 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\doc\lib\pdfbox-1.8.4.jar; size: 4078305 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\extensionmanager\extensionmanager-client.jar; size: 5850 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\file\destination.xml; size: 1215 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\file\file-client.jar; size: 75042 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\file\file-server.jar; size: 74699 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\file\file-shared.jar; size: 21967 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\file\lib\jcifs-1.3.17.jar; size: 427623 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\file\lib\webdavclient4j-core-0.92.jar; size: 209905 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\file\source.xml; size: 1251 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\globalmapviewer\globalmapviewer-client.jar; size: 15401 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\globalmapviewer\globalmapviewer-server.jar; size: 9490 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\globalmapviewer\globalmapviewer-shared.jar; size: 7904 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\globalmapviewer\plugin.xml; size: 1035 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\http\destination.xml; size: 1192 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\http\http-client.jar; size: 94704 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\http\http-server.jar; size: 61131 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\http\http-shared.jar; size: 19233 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\http\source.xml; size: 999 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\httpauth\httpauth-client.jar; size: 38783 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\httpauth\httpauth-server.jar; size: 48129 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\httpauth\httpauth-shared.jar; size: 21093 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\httpauth\plugin.xml; size: 962 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\httpauth\src\httpauth-userutil-sources.jar; size: 9609 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\imageviewer\imageviewer-client.jar; size: 10111 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\imageviewer\plugin.xml; size: 509 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\javascriptrule\javascriptrule-client.jar; size: 9965 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\javascriptrule\javascriptrule-shared.jar; size: 7874 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\javascriptrule\plugin.xml; size: 591 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\javascriptstep\javascriptstep-client.jar; size: 9959 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\javascriptstep\javascriptstep-shared.jar; size: 7869 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\javascriptstep\plugin.xml; size: 601 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\jdbc\destination.xml; size: 1089 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\jdbc\jdbc-client.jar; size: 67613 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\jdbc\jdbc-server.jar; size: 55833 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\jdbc\jdbc-shared.jar; size: 16674 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\jdbc\source.xml; size: 1122 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\jms\destination.xml; size: 1027 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\jms\jms-client.jar; size: 31327 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\jms\jms-server.jar; size: 32729 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\jms\jms-shared.jar; size: 13995 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\jms\source.xml; size: 1023 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\js\destination.xml; size: 851 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\js\js-client.jar; size: 12684 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\js\js-server.jar; size: 18577 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\js\js-shared.jar; size: 9762 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\js\source.xml; size: 860 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\mapper\mapper-client.jar; size: 19152 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\mapper\mapper-shared.jar; size: 11275 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\mapper\plugin.xml; size: 560 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\messagebuilder\messagebuilder-client.jar; size: 18832 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\messagebuilder\messagebuilder-shared.jar; size: 11109 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\messagebuilder\plugin.xml; size: 611 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\mllpmode\mllpmode-client.jar; size: 26625 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\mllpmode\mllpmode-server.jar; size: 10102 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\mllpmode\mllpmode-shared.jar; size: 7816 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\mllpmode\plugin.xml; size: 734 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\pdfviewer\lib\PDFRenderer.jar; size: 2098022 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\pdfviewer\pdfviewer-client.jar; size: 9703 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\pdfviewer\plugin.xml; size: 552 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\rulebuilder\plugin.xml; size: 575 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\rulebuilder\rulebuilder-client.jar; size: 23530 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\rulebuilder\rulebuilder-shared.jar; size: 10454 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\scriptfilerule\plugin.xml; size: 606 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\scriptfilerule\scriptfilerule-client.jar; size: 9638 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\scriptfilerule\scriptfilerule-shared.jar; size: 8013 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\scriptfilestep\plugin.xml; size: 616 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\scriptfilestep\scriptfilestep-client.jar; size: 9623 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\scriptfilestep\scriptfilestep-shared.jar; size: 8010 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\serverlog\plugin.xml; size: 956 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\serverlog\serverlog-client.jar; size: 25295 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\serverlog\serverlog-server.jar; size: 11775 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\serverlog\serverlog-shared.jar; size: 7670 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\smtp\destination.xml; size: 1106 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\smtp\smtp-client.jar; size: 32346 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\smtp\smtp-server.jar; size: 16118 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\smtp\smtp-shared.jar; size: 13276 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\tcp\destination.xml; size: 995 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\tcp\plugin.xml; size: 636 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\tcp\source.xml; size: 814 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\tcp\tcp-client.jar; size: 43854 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\tcp\tcp-server.jar; size: 46489 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\tcp\tcp-shared.jar; size: 15504 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\textviewer\plugin.xml; size: 511 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\textviewer\textviewer-client.jar; size: 11132 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\vm\destination.xml; size: 828 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\vm\source.xml; size: 836 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\vm\vm-client.jar; size: 21737 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\vm\vm-server.jar; size: 13023 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\vm\vm-shared.jar; size: 10111 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\ws\destination.xml; size: 1382 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\ws\lib\policy-xmlbeans-1.5.jar; size: 732608 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\ws\lib\soapui-4.0.1.jar; size: 6041262 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\ws\lib\soapui-xmlbeans-4.0.1.jar; size: 1322033 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\ws\lib\wsdl4j-1.6.2-fixed.jar; size: 166120 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\ws\lib\xbean-fixed-2.4.0.jar; size: 2920098 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\ws\source.xml; size: 920 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\ws\ws-client.jar; size: 58370 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\ws\ws-server.jar; size: 50516 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\ws\ws-shared.jar; size: 20920 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\xsltstep\plugin.xml; size: 567 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\xsltstep\xsltstep-client.jar; size: 12935 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\extensions\xsltstep\xsltstep-shared.jar; size: 9148 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\mcserver.exe; size: 359608 bytes; exists: false
+       File options set to: [fileTime: Tue Apr 18 09:45:42 IST 2017, mode: 755, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\RP\Mirth Connect\mcserver.vmoptions; size: 73 bytes; exists: false
+       File options set to: [fileTime: Tue Apr 18 09:45:42 IST 2017, mode: 644, overwriteMode: Never, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\RP\Mirth Connect\mcservice.exe; size: 369336 bytes; exists: false
+       File options set to: [fileTime: Tue Apr 18 09:45:42 IST 2017, mode: 755, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\RP\Mirth Connect\mcservice.vmoptions; size: 73 bytes; exists: false
+       File options set to: [fileTime: Tue Apr 18 09:45:42 IST 2017, mode: 644, overwriteMode: Never, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\RP\Mirth Connect\mirth-server-launcher.jar; size: 8328 bytes; exists: false
+       File options set to: [fileTime: Tue Apr 18 09:45:42 IST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\RP\Mirth Connect\public_api_html\css\bootstrap-glyph.css; size: 14528 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\css\mirth.css; size: 1395 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\css\print.css; size: 42365 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\css\reset.css; size: 1066 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\css\screen.css; size: 44551 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\css\style.css; size: 4643 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\css\typography.css; size: 450 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\fonts\DroidSans-Bold.ttf; size: 42480 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\fonts\DroidSans.ttf; size: 41028 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\fonts\glyphicons-halflings-regular.eot; size: 20127 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\fonts\glyphicons-halflings-regular.svg; size: 108738 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\fonts\glyphicons-halflings-regular.ttf; size: 45404 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\fonts\glyphicons-halflings-regular.woff; size: 23424 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\fonts\glyphicons-halflings-regular.woff2; size: 18028 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\images\explorer_icons.png; size: 5763 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\images\favicon.ico; size: 1150 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\images\mirthconnectlogowide.png; size: 7047 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\images\throbber.gif; size: 9257 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\index.html; size: 7921 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\lang\en.js; size: 2305 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\lang\es.js; size: 2424 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\lang\fr.js; size: 2461 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\lang\it.js; size: 2432 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\lang\ja.js; size: 2512 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\lang\pl.js; size: 2298 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\lang\pt.js; size: 2314 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\lang\ru.js; size: 3064 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\lang\tr.js; size: 2286 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\lang\translator.js; size: 1422 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\lang\zh-cn.js; size: 2066 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\lib\backbone-min.js; size: 20390 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\lib\handlebars-2.0.0.js; size: 48517 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\lib\highlight.7.3.pack.js; size: 7499 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\lib\jquery-1.8.0.min.js; size: 92555 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\lib\jquery.ba-bbq.min.js; size: 4119 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\lib\jquery.cookie.js; size: 3121 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\lib\jquery.slideto.min.js; size: 369 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\lib\jquery.wiggle.min.js; size: 762 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\lib\jsoneditor.min.js; size: 130042 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\lib\marked.js; size: 28156 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\lib\swagger-ui.js; size: 2231165 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\lib\underscore-min.js; size: 15626 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_api_html\lib\underscore-min.map; size: 27479 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_html\css\bootstrap.css; size: 81805 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_html\css\main.css; size: 15797 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_html\images\favicon.ico; size: 1150 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_html\images\mirth_128_ico.png; size: 3149 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_html\images\mirthconnectlogowide.png; size: 7047 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_html\images\splashscreen.png; size: 26091 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_html\index.html; size: 2512 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\public_html\js\jquery-1.7.1.min.js; size: 93868 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\HikariCP-2.5.1.jar; size: 136363 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\backport-util-concurrent-Java60-3.1.jar; size: 321201 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\bcpkix-jdk15on-151.jar; size: 605519 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\bcprov-ext-jdk15on-151.jar; size: 2908223 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\bcprov-jdk15on-151.jar; size: 2842667 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\commons\commons-beanutils-1.9.3.jar; size: 246174 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\commons\commons-cli-1.2.jar; size: 41123 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\commons\commons-codec-1.6.jar; size: 232771 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\commons\commons-collections-3.2.1.jar; size: 575389 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\commons\commons-collections4-4.0.jar; size: 610259 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\commons\commons-compress-1.4.1.jar; size: 241367 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\commons\commons-configuration-1.7.jar; size: 350332 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\commons\commons-dbcp2-2.0.1.jar; size: 167962 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\commons\commons-dbutils-1.4.jar; size: 49572 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\commons\commons-digester-2.0.jar; size: 148783 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\commons\commons-el-1.0.jar; size: 112341 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\commons\commons-email-1.3.1.jar; size: 49191 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\commons\commons-fileupload-1.2.1.jar; size: 57779 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\commons\commons-httpclient-3.0.1.jar; size: 279781 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\commons\commons-io-2.3.jar; size: 182650 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\commons\commons-jxpath-1.3.jar; size: 299994 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\commons\commons-lang-2.6.jar; size: 284220 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\commons\commons-lang3-3.4.jar; size: 434678 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\commons\commons-logging-1.1.1.jar; size: 60841 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\commons\commons-math3-3.0.jar; size: 1285617 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\commons\commons-net-3.3.jar; size: 280983 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\commons\commons-pool2-2.3.jar; size: 109568 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\commons\commons-vfs2-2.0.jar; size: 415578 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\commons\httpclient-4.5.1.jar; size: 732765 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\commons\httpcore-4.4.3.jar; size: 326594 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\commons\httpmime-4.5.1.jar; size: 40698 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\commons\not-yet-commons-ssl-0.3.11.jar; size: 274044 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\database\derby-10.10.2.0.jar; size: 2838580 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\database\derbytools-10.10.2.0.jar; size: 214415 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\database\jtds-1.3.1.jar; size: 317816 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\database\mysql-connector-java-5.1.32-bin.jar; size: 969020 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\database\ojdbc7-12.1.0.2.jar; size: 3698857 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\database\postgresql-9.4.1212.jdbc42.jar; size: 680445 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\database\sqlite-jdbc-3.7.2.jar; size: 3201128 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\donkey\HikariCP-2.5.1.jar; size: 136363 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\donkey\donkey-model.jar; size: 99243 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\donkey\donkey-server.jar; size: 321017 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\donkey\guava-18.0.jar; size: 2256213 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\donkey\quartz-all-2.1.7.jar; size: 581125 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\donkey\slf4j-api-1.6.6.jar; size: 26176 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\hapi-1.1.jar; size: 13725455 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jackson-annotations-2.5.3.jar; size: 39821 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jackson-core-2.5.3.jar; size: 229998 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jackson-databind-2.5.3.jar; size: 1143162 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jasypt-1.7.1.jar; size: 172831 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\javassist-3.19.0-GA.jar; size: 749498 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\javax\javax.annotation-api-1.2.jar; size: 26366 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\javax\javax.inject-2.4.0-b31.jar; size: 5951 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\javax\javax.json-1.0.4.jar; size: 85147 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\javax\javax.json-api-1.0.jar; size: 19754 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\javax\javax.mail-1.5.0.jar; size: 521990 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\javax\javax.servlet-api-3.1.0.jar; size: 95806 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\javax\javax.ws.rs-api-2.0.1.jar; size: 115534 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jdom-1.1.1.jar; size: 152797 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jersey\ext\aopalliance-repackaged-2.4.0-b31.jar; size: 14765 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jersey\ext\asm-debug-all-5.0.4.jar; size: 379036 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jersey\ext\hk2-api-2.4.0-b31.jar; size: 173037 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jersey\ext\hk2-locator-2.4.0-b31.jar; size: 179705 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jersey\ext\hk2-utils-2.4.0-b31.jar; size: 101088 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jersey\ext\jaxb-api-2.2.7.jar; size: 100146 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jersey\ext\mimepull-1.9.6.jar; size: 63977 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jersey\ext\org.osgi.core-4.2.0.jar; size: 246924 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jersey\ext\osgi-resource-locator-1.0.1.jar; size: 20235 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jersey\ext\persistence-api-1.0.jar; size: 52150 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jersey\ext\validation-api-1.1.0.Final.jar; size: 63777 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jersey\jersey-client-2.22.1.jar; size: 163417 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jersey\jersey-common-2.22.1.jar; size: 696004 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jersey\jersey-container-jetty-http-2.22.1.jar; size: 26935 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jersey\jersey-container-jetty-servlet-2.22.1.jar; size: 6912 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jersey\jersey-container-servlet-2.22.1.jar; size: 16610 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jersey\jersey-container-servlet-core-2.22.1.jar; size: 64787 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jersey\jersey-guava-2.22.1.jar; size: 971278 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jersey\jersey-media-jaxb-2.22.1.jar; size: 72738 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jersey\jersey-media-multipart-2.22.1.jar; size: 68019 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jersey\jersey-proxy-client-2.22.1.jar; size: 9603 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jersey\jersey-server-2.22.1.jar; size: 951633 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jetty\jetty-annotations-9.3.14.v20161028.jar; size: 82088 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jetty\jetty-continuation-9.3.14.v20161028.jar; size: 15796 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jetty\jetty-http-9.3.14.v20161028.jar; size: 148308 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jetty\jetty-io-9.3.14.v20161028.jar; size: 115988 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jetty\jetty-plus-9.3.14.v20161028.jar; size: 55424 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jetty\jetty-rewrite-9.3.14.v20161028.jar; size: 34018 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jetty\jetty-schemas-3.1.jar; size: 188164 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jetty\jetty-security-9.3.14.v20161028.jar; size: 94504 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jetty\jetty-server-9.3.14.v20161028.jar; size: 516562 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jetty\jetty-servlet-9.3.14.v20161028.jar; size: 117255 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jetty\jetty-util-9.3.14.v20161028.jar; size: 441715 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jetty\jetty-webapp-9.3.14.v20161028.jar; size: 112565 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jetty\jetty-xml-9.3.14.v20161028.jar; size: 50317 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jetty\jsp\org.apache.taglibs.taglibs-standard-impl-1.2.5.jar; size: 206430 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jetty\jsp\org.apache.taglibs.taglibs-standard-spec-1.2.5.jar; size: 40153 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jetty\jsp\org.eclipse.jdt.core.compiler.ecj-4.4.2.jar; size: 2310271 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jetty\jsp\org.eclipse.jetty.apache-jsp-9.3.14.v20161028.jar; size: 10899 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jetty\jsp\org.mortbay.jasper.apache-el-8.0.33.jar; size: 241490 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jetty\jsp\org.mortbay.jasper.apache-jsp-8.0.33.jar; size: 966102 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jms\geronimo-j2ee-management_1.1_spec-1.0.1.jar; size: 20220 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jms\geronimo-jms_1.1_spec-1.1.1.jar; size: 32359 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\joda-time-2.2.jar; size: 573912 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\jsch-0.1.54.jar; size: 278612 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\log4j-1.2.16.jar; size: 481534 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\mirth-client-core.jar; size: 586900 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\mirth-crypto.jar; size: 3025092 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\mirth-dbconf.jar; size: 78068 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\mirth-server.jar; size: 1062423 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\mirth-vocab.jar; size: 1733252 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\mybatis-3.1.1.jar; size: 651643 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\quartz-all-2.1.7.jar; size: 581125 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\rhino-1.7.6.jar; size: 1188593 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\swagger\ext\jackson-dataformat-yaml-2.6.3.jar; size: 320442 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\swagger\ext\reflections-0.9.10.jar; size: 129763 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\swagger\swagger-annotations-1.5.4.jar; size: 16045 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\swagger\swagger-core-1.5.4.jar; size: 100384 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\swagger\swagger-jaxrs-1.5.4.jar; size: 54255 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\swagger\swagger-jersey2-jaxrs-1.5.4.jar; size: 7221 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\swagger\swagger-models-1.5.4.jar; size: 128977 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\velocity-1.7.jar; size: 449505 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\velocity-tools-2.0.jar; size: 346580 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\xercesImpl-2.9.1.jar; size: 1229289 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\xpp3-1.1.4c.jar; size: 120069 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\xstream-1.4.7.jar; size: 531571 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\server-lib\zip4j_1.3.2.jar; size: 131025 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\webapps\webadmin.war; size: 1136813 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\.install4j\inst_jre.cfg; size: 36 bytes; exists: false
+       File options set to: [fileTime: Sun Oct 08 14:41:05 IST 2017, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\RP\Mirth Connect\.install4j\i4jruntime.jar; size: 1945565 bytes; exists: false
+       File options set to: [fileTime: Sun Oct 08 14:41:05 IST 2017, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: D:\RP\Mirth Connect\.install4j\MessagesDefault; size: 33540 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\.install4j\i4jparams.conf; size: 130515 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\.install4j\stats.properties; size: 4433 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\.install4j\user.jar; size: 14451 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\.install4j\user\commons-collections-3.2.1.jar; size: 575389 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\.install4j\user\commons-configuration-1.7.jar; size: 350332 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\.install4j\user\commons-lang-2.6.jar; size: 284220 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\.install4j\user\commons-logging-1.1.1.jar; size: 60841 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\.install4j\user\installer-util.jar; size: 1886 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\.install4j\i4j_extf_0_1xzdl9v.utf8; size: 33540 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\.install4j\i4j_extf_1_1xzdl9v_4c2ede.png; size: 15133 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\.install4j\i4j_extf_2_1xzdl9v.txt; size: 22652 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\.install4j\i4j_extf_3_1xzdl9v_mfokdr.ico; size: 99678 bytes; exists: false
+       Install file: D:\RP\Mirth Connect\.install4j\installer.ico; size: 15749 bytes; exists: false
+       Execute action successful after 6935 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 9]: Execute action
+       Property addUninstaller: true
+       Property categories: Application
+       Property unixSymlinks: true
+       Property allUsers: true
+       Property linkDirectory: 
+       Property programGroupName: Mirth Connect
+       Property failForSymlinksNotCreated: false
+       Property addDefaultLauncherLinks: true
+       Property programGroupEntryConfigs: []
+       Property unixMenuEntries: true
+       Property uninstallerMenuName: Mirth Connect Uninstaller
+       Property rollbackSupported: true
+       Install file: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Mirth Connect\Mirth Connect Server.lnk; size: 767 bytes; exists: false
+       File options set to: [fileTime: Sun Oct 08 14:41:05 IST 2017, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Mirth Connect\Mirth Connect Server Manager.lnk; size: 772 bytes; exists: false
+       File options set to: [fileTime: Sun Oct 08 14:41:06 IST 2017, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Mirth Connect\Mirth Connect.lnk; size: 772 bytes; exists: false
+       File options set to: [fileTime: Sun Oct 08 14:41:06 IST 2017, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Mirth Connect\Mirth Connect Uninstaller.lnk; size: 772 bytes; exists: true
+       File options set to: [fileTime: Sun Oct 08 14:41:06 IST 2017, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Execute action successful after 379 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction [ID 10]: Execute action
+       Property icon: i4j_extf_3_1xzdl9v_mfokdr.ico
+       Property iconSource: Custom icon
+       Property itemName: Mirth Connect 3.5.0.8232.b2153
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Execute action successful after 11 ms
+[INFO] com.install4j.runtime.beans.actions.registry.SetRegistryValueAction [ID 1145]: Execute action
+       Property value: "D:\RP\Mirth Connect\mcmanager.exe"
+       Property keyName: SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+       Property registryRoot: HKEY_LOCAL_MACHINE
+       Property valueName: Mirth Connect Server Manager
+       Property createKey: true
+       Property rollbackSupported: true
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 7]: Rollback barrier reached
+       command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 11]: Show screen
+       Variable changed: executeLauncherAction=false[class java.lang.Boolean]
+       Variable changed: showFileAction=false[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.actions.misc.CreateResponseFileAction [ID 305]: Execute action
+       Property excludedVariables: null
+       Property variableSelectionMode: All except specified response file variables
+       Property includedVariables: null
+       Property file: preferences
+       Property rollbackSupported: true
+       Execute action successful after 3 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 660]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_79
+       Property rollbackSupported: false
+       Property rollbackScript: null
+       Execute action successful after 89 ms
+[INFO] com.install4j.runtime.beans.actions.services.InstallServiceAction [ID 164]: Execute action
+       Property description: 
+       Property installedServices: []
+       Property serviceName: null
+       Property launcherId: 144
+       Property executable: null
+       Property autoStart: true
+       Property interactive: false
+       Property password: [logging of password is disabled]
+       Property windowsArguments: 
+       Property windowsDependencies: 
+       Property macosIdentifier: com.mirth.connect
+       Property restartOnFailure: false
+       Property accountNameOrSid: 
+       Property windowsDisplayName: 
+       Property serviceAccount: Local System
+       Property keepCurrentAccount: false
+       Property windowsPriority: Normal
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Execute action successful after 1310 ms
+[INFO] com.install4j.runtime.beans.actions.services.StartServiceAction [ID 167]: Execute action
+       Property autostartOnly: false
+       Property serviceName: null
+       Property launcherId: 144
+       Property executable: null
+       Property rollbackSupported: true
+       usedExecutable: D:\RP\Mirth Connect\mcservice.exe
+       Execute action successful after 80 ms
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 11]: command: finish
+       cleaning up
+       Finished
