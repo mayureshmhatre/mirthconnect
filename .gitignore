@@ -1,1 +1,6 @@
-Mirth*Connect/appdata/
+*.class
+
+*.jar
+*.war
+*.ear
+>DS_Store
