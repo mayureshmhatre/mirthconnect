@@ -1,0 +1,12 @@
+diff a/.gitignore b/.gitignore	(rejected hunks)
+@@ -4,5 +4,9 @@
+  *.war
+  *.ear
+  >DS_Store
+- Mirth*Connect\Appdata
+ -Mirth*Connect\appdata\
+++<<<<<<< HEAD
+++Mirth*Connect\Appdata
+++=======
+++Mirth*Connect\appdata\
+++>>>>>>> 3cb14f392975a73fdc84c90ef5edf7887668a6c4
